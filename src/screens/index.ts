@@ -1,3 +1,3 @@
 import Home from "./home";
-import Game from "./game";
-export { Home, Game };
+import SinglePlayerGame from "./single-player";
+export { Home, SinglePlayerGame };

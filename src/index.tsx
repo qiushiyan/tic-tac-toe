@@ -1,14 +1,15 @@
-import { StatusBar } from "expo-status-bar";
 import React from "react";
-import { StyleSheet, Text, View } from "react-native";
-import { Home, Game } from "@screens";
+import Navigator from "@config/Navigator";
+import { AppBootstrap } from "@components";
 
 const App = () => {
   return (
-    <View style={{ flex: 2, justifyContent: "center", alignItems: "center" }}>
-      <Home />
-      <Game />
-    </View>
+    <AppBootstrap>
+      {/* <View style={{ flex: 2, justifyContent: "center", alignItems: "center" }}>
+        <Text>Hello World I miss you</Text>
+      </View> */}
+      <Navigator />
+    </AppBootstrap>
   );
 };
 
